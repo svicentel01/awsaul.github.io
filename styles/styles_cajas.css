@@ -1,0 +1,62 @@
+div {
+	background: #44d2f0;
+	width: 100px;
+	height: 100px;
+	font-size: 40px;
+	color: white;
+	padding: 12px;
+	margin: 3px;
+	float: left;
+}
+section {
+	clear: both;
+}
+.caja8 {
+	clear: both;
+}
+img {
+	width: 25%;
+	float: left;
+	clear: left;
+	border-radius: 50%;
+	box-shadow: 15px 10px 20px gray;
+}
+p {
+	float: left;
+	width: 72%;
+	margin-left: 25px;
+}
+a.index{
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+}
+
+.clear {
+	clear: both;
+}
+.menu {
+	clear: both;
+	list-style-type: none;
+	list-style-position: inside;
+	background-color: hsl(226, 10%, 61%);
+	margin-bottom: 5px;
+}
+.menu a:link {
+	display: inline-block;
+	background-color: hsl(226, 30%, 51%);
+	font-family: 'Open Sans', sans-serif;
+	font-size: medium;
+	padding: 2px;
+	color: azure;
+	text-decoration: none;
+}
+.menu a:hover {
+	background-color: hsl(226, 20%, 61%);
+	text-decoration: underline;
+	color: #2f4a82;
+	transition: 0.8s ease;
+}
+.menu a:visited {
+	background-color: hsl(226, 10%, 71%);
+}

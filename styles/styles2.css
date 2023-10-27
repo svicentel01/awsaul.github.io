@@ -1,0 +1,151 @@
+/* Página */
+body {
+	background: wheat;
+	animation: fade-in 2.4s ease;
+	padding: 6px;
+}
+header {
+	margin-bottom: 28px;
+	margin-left: 12px;
+}
+
+/* Cajas*/
+aside {
+	background: #d4c469;
+	width: 240px;
+	height: 475px;
+	padding: 12px;
+	margin-left: 12px;
+	margin-top: 5px;
+	margin-right: 32px;
+	margin-bottom: 12px;
+	float: left;
+	clear: both;
+	border-color: #000000;
+	border: 2px;
+	border-style: solid;
+	border-radius: 2px;
+}
+section {
+	margin-right: 64px;
+	margin-bottom: 48px;
+}
+footer {
+	background: #000000;
+	color: aliceblue;
+	padding: 12px;
+}
+footer p {
+	line-height: 8px;
+	margin-left: 6px;
+}
+article {
+	background: #b3b3c0;
+	margin-left: 320px;
+	margin-bottom: 28px;
+	padding-left: 25px;
+	padding-top: 5px;
+	padding-right: 25px;
+	padding-bottom: 5px;
+	box-shadow: 5px 8px 10px #615021;
+	border-radius: 2px;
+}
+article:hover, article:hover img {
+	background: rgba(179, 179, 192, 0.8);
+	border-radius: 8px;
+}
+article img:hover {
+	transform: scale(1.2);
+	transition: ease 350ms;
+}
+article figure img {
+	max-width: 40%;
+}
+
+/* Títulos */
+h1 {
+	text-align: center;
+	background: linear-gradient(#e66465, #9198e5);
+	padding: 6px;
+	width: 8.5em;
+	border-radius: 3px;
+}
+aside h3 {
+	margin-top: 0px;
+}
+h2 {
+	margin-top: 18px;
+	margin-bottom: 0px;
+}
+p {
+	margin-top: 8px;
+}
+
+/* Barra de navegación */
+button {
+	width: 100%;
+	padding: 0px;
+	margin-left: 6px;
+	margin-right: 10px;
+	border: none;
+	background: none;
+}
+.dropdown1, .dropdown2 {
+	margin-right: 20px;
+	display: inline-block;
+	position: relative;
+}
+.dropdown1 a:link, .dropdown2 a:link {
+	display: block;
+	background-color: hsl(236, 30%, 61%);
+	font-family: 'Open Sans', sans-serif;
+	font-size: medium;
+	padding: 8px;
+	border-radius: 8px;
+	color: azure;
+	text-decoration: none;
+	width: 100%;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	overflow: show;
+	text-align: center;
+}
+.dropdown1:hover .dropdown-content, .dropdown2:hover .dropdown-content {
+	display: inline-block;
+}
+.dropdown-content a:link {
+	display: inline-block;
+	padding: 4px 3px;
+	margin-left: 6px;
+	margin-top: 1px;
+	text-align: center;
+	width: 100%;
+}
+.dropdown-content a:hover {
+	color: #FFFFFF;
+	background-color: #00A4BD;
+}
+nav div a:hover {
+	transform: rotate(-4deg);
+	transition: 120ms ease-in-out;
+}
+
+/* Barra de desplazamiento*/
+::-webkit-scrollbar {
+    background: #0e090d;
+    width: 11px;
+    height: 9px;
+}
+::-webkit-scrollbar-thumb {
+	background: #b3b3c0;
+    border-radius: 6px;
+}
+
+/* Otros */
+@keyframes fade-in {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}

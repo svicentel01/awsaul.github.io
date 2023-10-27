@@ -1,0 +1,122 @@
+/* Diseño general */
+body {
+    background-color: hsl(226, 23%, 11%);
+    color: aliceblue;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.125em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.75rem;
+    max-width: 1150px;
+    padding: 10px;
+}
+
+/*
+body.index {
+	background-image: url(../img/background.jpg);
+}
+*/
+
+/* Barra de desplazamiento */
+::-webkit-scrollbar {
+    background: #0e090d;
+    width: 11px;
+    height: 9px;
+}
+::-webkit-scrollbar-thumb {
+    background: #b3b3c0;
+    border-radius: 12px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #dbc4f7;
+}
+
+/* Títulos */
+h1 {
+    font-size: 1.8em;
+	color: white;
+}
+h2 {
+    font-size: 1.45em;
+}
+h3 {
+    font-size: 1.15em;
+}
+h4 {
+    font-size: 0.985em;
+}
+
+/* Enlaces */
+a:link {
+    color: rgb(166, 132, 221);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(205, 181, 214);
+}
+a.prueba {
+	color: black;
+	background: azure;
+}
+
+/* Imágenes */
+div.center img {
+    width: 100%;
+    max-width: 630px;
+    height: auto;
+}
+div.center img:hover {
+    transform: scale(1.8);
+    transition: 0.6s ease;
+}
+img.center {
+    width: 100%;
+    max-width: 530px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2pt;
+    margin-top: 6px;
+}
+
+/* Clases */
+.table {
+    border: 2px solid hsl(224, 27%, 24%);
+    border-collapse: collapse;
+    width: 28%;
+	text-align: center;
+}
+
+/* Otros */
+div.center {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.85em;
+    position: relative;
+    width: 100%;
+    max-width: 630px;
+    height: auto;
+    overflow: hidden;
+}
+
+/* Página 2 */
+div.pag2 {
+	display: block;
+	background: black;
+	width: 24%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	padding: 0.65em;
+}
+div.pag2:hover {
+	display: block;
+	background: rgba(0, 0, 0, 0.85);
+	overflow: show;
+	transform: scale(1.3);
+    transition: 1.0s ease;
+	transform-origin: left center;
+} 
